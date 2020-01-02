@@ -1,0 +1,65 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "A Random Quote Generator",
+      "description": "A program that displays a randomly selected quote each time a user clicks a button and on a timed interval.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://feediz.github.io/RandomQuoteProject/index.html",
+      "github_link": "https://github.com/Feediz/RandomQuoteProject.git",
+      "image_urls": []
+    },
+    {
+      "id": 1,
+      "project_name": "List Pagination and Filtering",
+      "description": "Divides any long list into a series of pages and improve the user experience of a web page",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://feediz.github.io/ListPaginationAndFiltering/index.html",
+      "github_link": "https://github.com/Feediz/ListPaginationAndFiltering.git",
+      "image_urls": []
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "A simple form enhanced to be engaging, interactive and easy to use.",
+      "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+      "live_link": "https://feediz.github.io/InteractiveForms/index.html",
+      "github_link": "https://github.com/Feediz/interactiveForm.git",
+      "image_urls": []
+    },
+    {
+      "id": 3,
+      "project_name": "OOP Game Show",
+      "description": "Browser based word guessing game. A random phrase is loaded when the page loads and a player tries to guess the phrase by selecting letters from an onscreen or physical keyboard.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://feediz.github.io/PhraseHunter/index.html",
+      "github_link": "https://github.com/Feediz/PhraseHunter.git",
+      "image_urls": []
+    },
+    {
+      "id": 4,
+      "project_name": "Public API Requests",
+      "description": "An employee directory that is pulled from a third-party API.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://feediz.github.io/public-api-requests/index.html",
+      "github_link": "https://github.com/Feediz/public-api-requests.git",
+      "image_urls": []
+    },
+    {
+      "id": 5,
+      "project_name": "Static Node.js and Express Site",
+      "description": "A project portfolio page built with Node.js, Express and Pug templates.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "PUG"
+      ],
+      "live_link": "",
+      "github_link": "https://github.com/Feediz/StaticNodeJS.git",
+      "image_urls": []
+    }
+  ]
+}
