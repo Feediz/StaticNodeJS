@@ -7,7 +7,8 @@
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://feediz.github.io/RandomQuoteProject/index.html",
       "github_link": "https://github.com/Feediz/RandomQuoteProject.git",
-      "image_urls": []
+      "image_thumbnail": "/static/images/screenshots/550/random-quote.png",
+      "image_urls": ["/static/images/screenshots/1200/random-quote.png"]
     },
     {
       "id": 1,
@@ -16,7 +17,8 @@
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://feediz.github.io/ListPaginationAndFiltering/index.html",
       "github_link": "https://github.com/Feediz/ListPaginationAndFiltering.git",
-      "image_urls": []
+      "image_thumbnail": "/static/images/screenshots/550/ListPagination.png",
+      "image_urls": ["/static/images/screenshots/1200/ListPagination.png"]
     },
     {
       "id": 2,
@@ -25,6 +27,7 @@
       "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
       "live_link": "https://feediz.github.io/InteractiveForms/index.html",
       "github_link": "https://github.com/Feediz/interactiveForm.git",
+      "image_thumbnail": "/static/images/screenshots/550/Form.png",
       "image_urls": []
     },
     {
@@ -34,6 +37,7 @@
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://feediz.github.io/PhraseHunter/index.html",
       "github_link": "https://github.com/Feediz/PhraseHunter.git",
+      "image_thumbnail": "/static/images/screenshots/550/PhraseHunter.png",
       "image_urls": []
     },
     {
@@ -43,7 +47,8 @@
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://feediz.github.io/public-api-requests/index.html",
       "github_link": "https://github.com/Feediz/public-api-requests.git",
-      "image_urls": []
+      "image_thumbnail": "/static/images/screenshots/550/api-request.png",
+      "image_urls": ["/static/images/screenshots/1200/api-request.png"]
     },
     {
       "id": 5,

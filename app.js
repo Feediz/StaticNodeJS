@@ -1,6 +1,8 @@
 const express = require("express");
 const dotenv = require("dotenv").config();
 
+const data = require('./data/data.json');
+
 const path = require("path");
 const router = require("./router/routes");
 const app = express();
