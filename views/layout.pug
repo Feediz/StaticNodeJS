@@ -8,24 +8,25 @@ html(class="no-js" lang="en" dir="ltr")
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
-  body
-    #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
+  body(style="background-color: #C8E6C9;")
+    #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='', style="background-color: #2E7D32;")
       .grid-y.grid-padding-x(style='height: 100%;')
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='/static/images/profile/profile-pic.png')
+            a(href="/about")
+              img.thumbnail(src='/static/images/profile/profile-pic.png')
           .cell.auto
 
             //- Add your name here.
             h5 Fidel Habtezion
 
             //- Add text here to describe who you are, what you do, and why you are so awesome.
-            p.text-light
+            p(style="color: #FFFF00 !important;")
               | Description
 
             //- Add about page route to the href below. 
-            a(href='') Learn More →
+            a(style="color: #18FFFF !important;" href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large

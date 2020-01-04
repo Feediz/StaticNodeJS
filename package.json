@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon app",
+    "stop": "pkill --signal SIGINT myApp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
