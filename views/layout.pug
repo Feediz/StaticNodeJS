@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 html(class="no-js" lang="en" dir="ltr")
+  block variables
   head
+    - var title = title || "Portfolio Site"
+    title #{title}
     meta(charset='utf-8')
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Portfolio Site
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
@@ -15,7 +17,7 @@ html(class="no-js" lang="en" dir="ltr")
           br
           .cell.shrink
             a(href="/about")
-              img.thumbnail(src='/static/images/profile/profile-pic.png')
+              img.thumbnail.circle(src='/static/images/profile/profile-pic.png')
           .cell.auto
 
             //- Add your name here.
@@ -34,7 +36,7 @@ html(class="no-js" lang="en" dir="ltr")
           button.menu-icon(type='button', data-toggle='my-info')
 
           //- Add your name here.  This is for the mobile screen sized version.
-          span.title-bar-title Name
+          span.title-bar-title Fidel Habtezion
       block content
         
 

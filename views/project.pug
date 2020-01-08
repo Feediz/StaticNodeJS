@@ -1,5 +1,6 @@
 extends layout.pug
-
+block variables
+  - var title = `Portfolio Site - ${project.project_name}`
 block content 
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
@@ -8,7 +9,7 @@ block content
       .cell.small-6.medium-9.large-9
 
         //- Use interpolation to dynamically add the project title.
-        h1= project.project_name
+        h1.homeTitle= project.project_name
 
         //- Use interpolation to dynamically add the project description.
         p.lead.text-light

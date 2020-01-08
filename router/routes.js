@@ -3,17 +3,7 @@ const routes = express.Router();
 
 const { projects } = require('../data/data.json');
 
-// test route
-routes.get("/test", (req, res) => {
-  res.send("Test works, all good");
-});
 
-routes.get("/test-pug", (req, res) => {
-  //res.send("Test works, all good");
-  res.render("index");
-});
-
-// prod routes
 routes.get("/", (req, res) => {
   res.locals.projects = projects;
   res.render("index");

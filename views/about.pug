@@ -1,5 +1,6 @@
 extends layout.pug
-
+block variables
+  - var title = `Portfolio Site - About Me`
 block content 
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
@@ -8,7 +9,7 @@ block content
       .cell.small-6.medium-9.large-9
 
         //- Add your name.
-        h1 Fidel H.
+        h1.homeTitle Fidel H.
 
         //- Feel free personalize the title below
         p.lead.text-light

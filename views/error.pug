@@ -1,11 +1,12 @@
 extends layout.pug
-
+block variables
+  - var title = `Portfolio Site - Oops we had a glitch`
 block content 
   article.grid-container.portfolio-intro
     div
 
       //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together! 
-      h1 My Portfolio
+      h1.homeTitle My Portfolio
 
       //- Add a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
       p.lead.text-light
@@ -19,7 +20,7 @@ block content
       a.hollow.button(href=`/`) click here to go to the home page
       h2.error= message
       h3= error.status
-      //-pre #{error.stack}
+      pre #{error.stack}
       //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
       
       //- Here's what the Pug for each project example should look like.
