@@ -28,7 +28,7 @@
       "live_link": "https://feediz.github.io/InteractiveForms/index.html",
       "github_link": "https://github.com/Feediz/interactiveForm.git",
       "image_thumbnail": "/static/images/screenshots/550/Form.png",
-      "image_urls": []
+      "image_urls": ["/static/images/screenshots/1200/Form.png"]
     },
     {
       "id": 3,
@@ -38,7 +38,7 @@
       "live_link": "https://feediz.github.io/PhraseHunter/index.html",
       "github_link": "https://github.com/Feediz/PhraseHunter.git",
       "image_thumbnail": "/static/images/screenshots/550/PhraseHunter.png",
-      "image_urls": []
+      "image_urls": ["/static/images/screenshots/1200/PhraseHunter.png"]
     },
     {
       "id": 4,
@@ -53,7 +53,7 @@
     {
       "id": 5,
       "project_name": "Static Node.js and Express Site",
-      "description": "A project portfolio page built with Node.js, Express and Pug templates.",
+      "description": "(This applicaiton you are on.)   A project portfolio page built with Node.js, Express and Pug templates.",
       "technologies": [
         "HTML",
         "CSS",
@@ -64,7 +64,8 @@
       ],
       "live_link": "",
       "github_link": "https://github.com/Feediz/StaticNodeJS.git",
-      "image_urls": []
+      "image_thumbnail": "/static/images/screenshots/550/portfolio.png",
+      "image_urls": ["/static/images/screenshots/1200/portfolio.png", "/static/images/screenshots/1200/portfolio2.png"]
     }
   ]
 }

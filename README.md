@@ -3,7 +3,7 @@
 
 # Modifications:
 1. CSS/Visual Changes
-    - transition on the profile picture
+    - transition on the profile picture when you mouse over the picture
     - text shadow on the h1 titles
     - background colors on main body and left section
 2. Code

@@ -1,24 +1,31 @@
+//- include main layout template
 extends layout.pug
+
+//- make page title dynamic
 block variables
   - var title = `Portfolio Site - ${project.project_name}`
+
 block content 
+
+  //- back navigation link
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        //- Use interpolation to dynamically add the project title.
+        //- display main page title
         h1.homeTitle= project.project_name
 
-        //- Use interpolation to dynamically add the project description.
+        //- display sub-header title
         p.lead.text-light
           | #{project.description}
 
+      //- technologies section
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
 
-        //- Use an `each` iterator to replace the li tags below and interpolation to dynamically add the technologies used in each project.
+        //- loop through the project technologies object and display the technologies used
         ul
           each technology in project.technologies
             li= technology
@@ -27,9 +34,6 @@ block content
         a.button.expanded(href=`${project.live_link}`, target="_blank") Live Demo
         a.button.expanded(href=`${project.github_link}`, target="_blank") GitHub Repo
     
-    //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential employers will like to see. 
-    //- img.image(src='https://placehold.it/1200x550')
-    //- img.image(src='https://placehold.it/1200x550')
-    //- img.image(src='https://placehold.it/1200x550')
+    //- loop through the project images and display the images
     each image in project.image_urls
       img.image(src=`${image}`)

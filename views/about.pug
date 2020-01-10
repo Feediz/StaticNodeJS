@@ -1,6 +1,10 @@
+//- include main layout template
 extends layout.pug
+
+//- make page title dynamic
 block variables
   - var title = `Portfolio Site - About Me`
+
 block content 
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
@@ -8,23 +12,24 @@ block content
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        //- Add your name.
+        //- display main page title
         h1.homeTitle Fidel H.
 
-        //- Feel free personalize the title below
+        //- display sub-header title
         p.lead.text-light
           | Full Stack JavaScript Developer.
 
-        //- Replace the boilerplate below with your Elevator pitch below.
+        //- main body section
         .portfolio-bio
           p
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position. 
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
+            | I have been a software engineer for about 12 years, with a focus of serverside/backend technologies such as <u>.NET</u>, <u>PHP</u> and <u>Coldfusion</u>.
+            | Front end technologies such as <u>JavaScript</u>, <u>Node.JS</u>, <u>Express.JS</u> and <u>React.JS</u>.
+            | In addition I have the GSEC - Security Essentials Certification and GWEB Certified Web Application Defender certificates.
+            | And just recently got my certificate in SalesForce Platform Developer 1. If you feel we would be a great match to work together feel free to reach out.
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Skills
 
-        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
+        //- display the technologies I know
         ul
           li Express
           li Node.JS
@@ -32,17 +37,19 @@ block content
           li ASP.NET
           li Coldfusion 
           li Docker
-        h6 Contact Info
 
-        //- Add your own contact info
+        //- contact info
+        h6 Contact Info
         ul
           li 707-646-9518
           li pfdj_eplf@yahoo.com
 
-        //- Add URLs to the hrefs below to link to your social media accounts.
+        //- ways to communicate with me
         a.button.expanded(href='https://www.linkedin.com/in/fidel-habtezion-4576006/', target="_blank") LinkedIn
         a.button.expanded(href='https://github.com/Feediz', target="_blank") GitHub
         a.button.expanded(href='https://twitter.com/habtezionf', target="_blank") Twitter
+
+  //- back navigation link        
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
   
