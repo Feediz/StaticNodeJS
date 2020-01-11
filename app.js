@@ -27,6 +27,8 @@ app.use(function(err, req, res, next) {
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
 
+  console.error('Ooops there was an error with your request');
+  console.error(`Error Message: ${res.locals.message} (${err.status})`);
   // render the error page
   res.status(err.status || 500);
   res.render('error');
